@@ -1,6 +1,152 @@
+/*globalstyle*/
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.poppins-thin {
+    font-weight: 100;
+  }
+  
+  .poppins-extralight {
+    font-weight: 200;
+  }
+  
+  .poppins-light {
+    font-weight: 300;
+  }
+  
+  .poppins-regular {
+    font-weight: 400;
+  }
+  
+  .poppins-medium {
+    font-weight: 500;
+  }
+  
+  .poppins-semibold {
+    font-weight: 600;
+  }
+  
+  .poppins-bold {
+    font-weight: 700;
+  }
+  
+  .poppins-extrabold {
+    font-weight: 800;
+  }
+  
+  .poppins-black {
+    font-weight: 900;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
 .brandcolor{
-background: rgb(40, 43, 39);
+background: #dd3f57;
 color: whitesmoke;
 
 
+}
+.btn-color{
+    background: #dd3f57;
+    color: #ffff;
+}
+.btn-backgroundcolor{
+    background: #ff193c;
+    color: #ffff;
+}
+.carousel-item
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,1) 39%, rgba(0,0,0,1) 100%);
+    opacity: 0.5;
+
+}
+.sectionknowledge{
+    padding: 100px 0px ;
+}
+.cardknowledge{
+    padding: 30px;
+    border: 1px solid #8d8181;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    margin-bottom: 30;
+    p{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* number of lines to show */
+                line-clamp: 4; 
+        -webkit-box-orient: vertical;
+    }
+    i{
+        font-size: 64px;
+    }
+}
+.red{
+background: #ff193c;
+}
+.yellow{
+    background: yellow;
+}
+.green{
+background: ;
 }
