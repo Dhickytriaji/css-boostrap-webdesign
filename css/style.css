@@ -133,12 +133,24 @@ color: whitesmoke;
     p{
         overflow: hidden;
         display: -webkit-box;
-        -webkit-line-clamp: 4; /* number of lines to show */
-                line-clamp: 4; 
-        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; /* number of lines to show */
+                line-clamp: 3; 
+        -webkit-box-orient: vertical;
     }
     i{
         font-size: 64px;
+    }
+}
+.NewsBox{
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid greenyellow;
+.textNews{
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+        justify-content: center;
+
     }
 }
 .red{
@@ -148,5 +160,5 @@ background: #ff193c;
     background: yellow;
 }
 .green{
-background: ;
+background: green;
 }
